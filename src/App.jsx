@@ -1,8 +1,15 @@
-import React from 'react'
+import Header from './components/Header'
+import { DarkModeProvider } from './context/DarkModeContext'
+import Hero from './layout/Hero'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <DarkModeProvider>
+        <Header />
+        <Hero />
+      </DarkModeProvider>
+    </>
   )
 }
 
