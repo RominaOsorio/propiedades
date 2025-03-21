@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import { DarkModeProvider } from './context/DarkModeContext'
+import About from './layout/About'
 import Hero from './layout/Hero'
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       <DarkModeProvider>
         <Header />
         <Hero />
+        <About />
       </DarkModeProvider>
     </>
   )

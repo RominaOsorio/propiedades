@@ -92,7 +92,7 @@ const Hero = () => {
           </div>
 
           <div className='w-full'>
-            <button className='bg-red-600 dark:bg-red-700 hover:bg-black dark:hover:bg-white dark:hover:text-black text-lg p-3 w-full text-white font-semibold rounded-xl cursor-pointer transform hover:scale-105 transition-transform duration-300'>Enviar</button>
+            <button className='bg-red-600 dark:bg-red-700 hover:bg-black dark:hover:bg-white dark:hover:text-black text-lg p-4 w-full text-white font-semibold rounded-xl cursor-pointer transform hover:scale-105 transition-transform duration-300'>Enviar</button>
           </div>
 
         </div>
