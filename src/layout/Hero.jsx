@@ -63,8 +63,9 @@ const Hero = () => {
               id='tipo'
               name='tipo'
               className='bg-white dark:bg-gray-700 dark:text-white p-2 border-b-[1px] w-full mt-2 border-[#c9c7c1] text-gray-500 text-md'
+              defaultValue=''
             >
-              <option value='' disabled selected>
+              <option value='' disabled>
                 Selecciona
               </option>
               <option value='venta'>Venta</option>
@@ -81,8 +82,9 @@ const Hero = () => {
               id='categoria'
               name='categoria'
               className='bg-white dark:bg-gray-700 dark:text-white p-2 border-b-[1px] w-full mt-2 border-[#c9c7c1] text-gray-500 text-md'
+              defaultValue=''
             >
-              <option value='' disabled selected>
+              <option value='' disabled>
                 Selecciona
               </option>
               <option value='departamentos'>Departamentos</option>
