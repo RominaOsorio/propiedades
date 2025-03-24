@@ -3,6 +3,7 @@ import { DarkModeProvider } from './context/DarkModeContext'
 import About from './layout/About'
 import Hero from './layout/Hero'
 import PopularAreas from './layout/PopularAreas'
+import Properties from './layout/Properties'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Hero />
         <About />
         <PopularAreas />
+        <Properties />
       </DarkModeProvider>
     </>
   )
