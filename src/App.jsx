@@ -6,6 +6,7 @@ import PopularAreas from './layout/PopularAreas'
 import Properties from './layout/Properties'
 import Services from './layout/Services'
 import Clients from './layout/Clients'
+import Contact from './layout/Contact'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Properties />
         <Services />
         <Clients />
+        <Contact />
       </DarkModeProvider>
     </>
   )
