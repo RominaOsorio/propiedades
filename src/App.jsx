@@ -7,6 +7,7 @@ import Properties from './layout/Properties'
 import Services from './layout/Services'
 import Clients from './layout/Clients'
 import Contact from './layout/Contact'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Services />
         <Clients />
         <Contact />
+        <Footer />
       </DarkModeProvider>
     </>
   )
