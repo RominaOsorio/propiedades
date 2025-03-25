@@ -124,44 +124,44 @@ export const services = [
 export const client = [
   {
     image: client1,
-    name: 'Martín González',
+    name: 'Mariana López',
     text: '¡Gran equipo!',
     feedback:
-      'El equipo de Inmobiliaria Plus hizo un trabajo excepcional ayudándome a comprar mi primera casa.'
+    'El equipo hizo un trabajo excepcional ayudándome a comprar mi primera casa.'
   },
   {
     image: client2,
     name: 'Sofía Rodríguez',
     text: 'Muy buen servicio',
     feedback:
-      'Atención profesional y personalizada. Me guiaron en todo el proceso de compra.'
+    'Atención profesional y personalizada. Me guiaron en todo el proceso de compra.'
   },
   {
     image: client3,
     name: 'Juan Pérez',
     text: 'Recomendado',
     feedback:
-      'Excelente experiencia. Me ayudaron a encontrar la casa perfecta para mi familia.'
+    'Excelente experiencia. Me ayudaron a encontrar la casa perfecta para mi familia.'
   },
   {
     image: client4,
-    name: 'Elena Fernández',
+    name: 'Cristián Fernández',
     text: 'Increíble atención',
     feedback:
-      'Muy buena atención y asesoría. Compré mi departamento sin complicaciones.'
+    'Muy buena atención y asesoría. Compré mi departamento sin complicaciones.'
   },
   {
     image: client5,
     name: 'Carlos Ramírez',
     text: 'Muy satisfecho',
     feedback:
-      'Buen servicio y asesoramiento en todo momento. 100% recomendable.'
+    'Buen servicio y asesoramiento en todo momento. 100% recomendable.'
   },
   {
     image: client6,
-    name: 'Mariana López',
+    name: 'Martín González',
     text: 'Gran experiencia',
     feedback:
-      'Un equipo muy profesional. Me ayudaron a vender mi casa en tiempo récord.'
+    'Un equipo muy profesional. Me ayudaron a vender mi casa en tiempo récord.'
   }
 ]
