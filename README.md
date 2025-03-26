@@ -15,17 +15,19 @@ Este es un proyecto de propiedades construido con React y TailwindCSS, que permi
 
 ## Cómo ejecutar el proyecto
 
-1. ##Clona el repositorio**:
+1. **Clona el repositorio**:
    ```bash
    git clone https://github.com/tu-usuario/propiedades.git
 
-2. ## Instala dependencias
+2. **Instala dependencias**:
     npm install
 
-3. ## Ejecuta el servidor
+3. **Ejecuta el servidor**:
     npm run dev
 
 ##  Deployment
 
 Puedes ver el proyecto en vivo en el siguiente enlace:
+
+https://67e42d1a3b95ec03fa710e93--timely-croquembouche-f7d5f7.netlify.app/
 
