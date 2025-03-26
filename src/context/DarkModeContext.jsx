@@ -1,9 +1,21 @@
-import { createContext, useContext, useState } from 'react'
+/* eslint-disable no-undef */
+import { createContext, useContext, useState, useEffect } from 'react'
 
 export const DarkModeContext = createContext()
 
 const DarkModeProvider = ({ children }) => {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(
+    localStorage.getItem('darkMode') === 'true'
+  )
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+    localStorage.setItem('darkMode', darkMode)
+  }, [darkMode])
 
   const toggleDarkMode = () => {
     setDarkMode(prevMode => !prevMode)
@@ -19,7 +31,7 @@ const DarkModeProvider = ({ children }) => {
 const useDarkMode = () => {
   const context = useContext(DarkModeContext)
   if (!context) {
-    throw new Error('UseDarkMode must be used with a DarkModeProvider')
+    throw new Error('useDarkMode must be used within a DarkModeProvider')
   }
   return context
 }

@@ -83,7 +83,6 @@ const Header = () => {
         <div className='flex justify-center items-center lg:gap-8 gap-2'>
           <div className='flex justify-center items-center lg:gap-3 gap-1'>
             <FaPhoneAlt className='size-5 text-red-600' />
-            <h2 className='lg:text-xl text-sm text-black dark:text-white font-semibold'>+56 9 7682 6772</h2>
           </div>
 
           <div className='flex justify-center items-center lg:gap-3 gap-1'>

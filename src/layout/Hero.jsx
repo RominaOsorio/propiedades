@@ -40,7 +40,7 @@ const Hero = () => {
       </div>
 
       <div className={`${darkMode ? 'dark bg-black' : 'light-bg-transparent'} z-10`}>
-        <div data-aos='zoom-in' id='form' className={`${darkMode ? 'dark bg-gray-800' : 'light bg-white'} lg:w-[70%] w-full m-auto grid lg:grid-cols-4 grid-cols-1 justify-center items-center gap-6 p-8 rounded-xl -mt-14`}>
+        <div id='form' className={`${darkMode ? 'dark bg-gray-800' : 'light bg-white'} lg:w-[70%] w-full m-auto grid lg:grid-cols-4 grid-cols-1 justify-center items-center gap-6 p-8 rounded-xl -mt-14`}>
 
           <div className='w-full'>
             <label htmlFor='ubicacion' className='text-black dark:text-white font-semibold uppercase'>
